@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./style.css" rel="stylesheet"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <title>Agenda - Exercício EBAC</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="./images/livros-de-contato.png"/>
+            <h2>Agenda Telefônica</h2>
+        </header>        
+        <form id="form_agenda">
+            <label><img src="./images/adicionar-usuario.png"></label>
+            <input id="nome_contato" type="text" required placeholder="Nome do Contato">
+            <label><img src="./images/telefone.png"></label>
+            <input id="ddd_number" type="text" required placeholder="DDD">
+            <input id="phone_contato" type="tel" required placeholder="Telefone do Contado">
+            <button type="submit">Adicionar</button>
+        </form>
+        <table>
+            <thead>
+                <tr>
+                    <th>Nome de Contato</th>
+                    <th>Número de Contato</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
