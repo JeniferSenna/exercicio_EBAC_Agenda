@@ -34,6 +34,7 @@ function addLinhas(){
     }
     
     nomeContato.value = '';
+    dddNumber.value = '';
     phoneContato.value = '';
 }
 
